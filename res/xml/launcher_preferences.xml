@@ -48,7 +48,6 @@
         android:title="@string/statusbar_expand"
         android:defaultValue="true"
         android:persistent="true" />
-    </PreferenceCategory>
 
     <SwitchPreference
         android:key="pref_allowRotation"
