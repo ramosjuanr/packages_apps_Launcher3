@@ -24,7 +24,6 @@ import com.android.launcher3.ItemInfo;
 import com.android.launcher3.PromiseAppInfo;
 import com.android.launcher3.util.ComponentKey;
 import com.android.launcher3.util.PackageUserKey;
-import com.android.launcher3.util.ComponentKeyMapper;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -70,10 +69,6 @@ public class AllAppsStore {
                 mUpdatePending = false;
             }
         }
-    }
-
-    public AppInfo getApp(ComponentKeyMapper<AppInfo> mapper) {
-        return mapper.getItem(mComponentToAppMap);
     }
 
     /**
