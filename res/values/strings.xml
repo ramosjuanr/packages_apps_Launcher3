@@ -339,4 +339,8 @@
 
     <!-- Failed action error message: e.g. Failed: Pause -->
     <string name="remote_action_failed">Failed: <xliff:g id="what" example="Pause">%1$s</xliff:g></string>
+
+    <!-- Google Feed -->
+    <string name="google_feed_title">Display Google app</string>
+    <string name="google_feed_summary">To the left of the main home screen</string>
 </resources>
